@@ -1,0 +1,44 @@
+header {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+li {
+  float: left;
+  width: 100px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+header li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 12px 25px;
+}
+li a:hover {
+  background-color: green;
+  color: yellow;
+}
+footer{
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+}
+p{
+  column-count: 4;
+  column-rule: 3px solid black;
+  column-gap: 25px;
+}
+div{
+  text-align: justify;
+}
